@@ -1,9 +1,177 @@
-<html>
-  <head>
-    <title>Ma première page HTML</title>
-  </head>
-  <body>
-    <h1>Salut Github !</h1>
-    <p> Ma nouvelle version v2 </p>
-  </body>
+
+ <!DOCTYPE html>
+ <html lang="fr">Ù
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/png" href="img/bienvenue.png">
+    <title>Portfolio</title>
+ </head>
+    
+    <body>
+      <header>
+        
+     <div class="navbar">
+            <div class="logo"><a href="#" > Portfolio </a></div>
+       
+            <ul class="links">
+                <li><a href="index.html" > Qui suis-je ? </a></li>
+                <li><a href="Web.html"> Web </a></li>
+                <li><a href="Drawing.html" > Drawing </a></li>
+                <li><a href="InteriorDesign.html" > Interior Design </a></li>
+                <li><a href="Photographer.html" > Photographer </a></li>
+             
+            </ul>
+            <a href="#" class="action_btn" >Dylan T</a>
+               <div class="toggle_btn">
+                   <i class="fa-solid fa-bars"></i>
+               </div>
+    </div>
+
+    <div class="dropdown_menu">
+        <li><a href="index.html" > Qui suis-je? </a></li>
+               <li><a href="Web.html"> Web </a></li>
+                <li><a href="Drawing.html" > Drawing </a></li>
+                <li><a href="InteriorDesign.html" > Interior Design </a></li>
+                <li><a href="Photographer.html" > Photographer </a></li>
+            
+                <li> <a href="#" class="action_btn">Dylan T</a></li>
+    </div>
+  
+     </header>
+
+     <main>
+        <section id="hero">
+          <div class="txtacc">
+            <h1>Welcome</h1>
+     
+           <p>
+            Hey! bienvenue sur mon portfolio.
+           </p>
+          </div>  
+        </section>
+     </main>
+
+     <script>
+        const toggleBtn = document.quertySelector('.toggle_btn')
+        const toggleBtnIcon = document.quertySelector('.toggle_btn i')
+        const dropdown_menu = document.quertySelector('.dropdown_menu')
+    
+        toggleBtn.onclick = function () {
+        dropDownMenu.classList.toggle('open')
+        const isOpen = dropdownmenu.classList.contains('open')
+    
+            toggleBtnIcon.classList = isOpen
+            ? 'fa-solid fa-xmark'
+            : 'fa-solid fa-bars'
+        }
+    </script>
+
+    
+
+   <section>
+        <div class="Icon1">
+           <a href="#bas"><img src="Icon/chevron.png" alt="Fleche" width=60% height=60%/ ></a> 
+        </div>
+ </section>
+
+
+<br> <br>
+
+<article class="container">
+    <section id="hero">
+        <div class="txtacc2">
+            <div id=bas></div>
+        
+    <h2>Presentation</h2>
+
+      
+      <p>
+        hello!, Je me présente, je m’appelle Dylan et vous êtes sur mon portfolio, je vous remercie d'avance pour votre intérêt à ce site.
+        Je suis actuellement en apprentissage du numérique, plus précisément en DEUST WMI. Vous pourrez trouver sur ce site mes compétences dans de multiples domaines.
+    Avant tout passionné d'art et de design, vous trouverez mon parcours actuel.
+      </p>
+      </div>
+
+</article>
+
+
+
+<br><br>
+
+    <section>
+        
+        <div id=none class="Icon2">
+            <a href="#bas2"><img src="Icon/chevron.png" alt="Fleche" width=60% height=60%/ ></a> 
+        </div>
+
+
+    </section>
+
+    <br> <br>
+<section>  
+        <div class="txtacc2">
+    <h2>Competence</h2>
+    </div> </section>
+    <br><br><br><br><br>
+    
+    <section class="education">
+        <article>
+
+    <div class="container2">
+           <div class="item1">
+                 <p>
+                    2024  
+                    <br>
+                    
+                    Deust Web metier internet                 
+                </p>
+           </div>
+
+            <div class="item2">
+                 <p>
+                    2022
+                     <br>
+                     Diplome de design d’interieur            
+           </div>
+            <div class="item3">
+                 <p>
+                    2020 
+                    <br>
+                 DAEU B (eq Bac Scientifique)                 </p>
+            </div>
+            <div class="item4">
+                 <p>
+                    2015 
+                    <br>
+                 CAP Conducteur Routier Marchandise                </p>
+            </div>
+    </div>
+          
+      
+
+</article>
+
+
+
+<br><br>
+
+    <section>
+        
+        <div id=bas2 class="Icon3">
+            <a href="#bas3"><img src="Icon/chevron.png" alt="Fleche" width=60% height=60%/ ></a> 
+        </div>
+
+
+    </section>
+
+
+
+
+
+</body>
+
 </html>
+
